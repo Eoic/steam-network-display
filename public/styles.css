@@ -1,0 +1,9 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#network {
+    height: 100%;
+    background: rgb(47,47,47);
+}

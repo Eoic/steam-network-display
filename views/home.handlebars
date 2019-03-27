@@ -1,0 +1,32 @@
+    <div id='network'></div>
+
+    <script>
+        let users = JSON.parse("{{users}}".replace(/&quot;/g,'"'));
+        console.log(users);
+
+         /*
+        const nodes = new vis.DataSet(users['76561198047357217']);
+        const newEdges = users['76561198047357217'].map(item => {
+            return {
+                from: '76561198047357217',
+                to: item.id
+            }
+        })
+        const edges = new vis.DataSet(newEdges);
+
+        const container = document.getElementById('network');
+        var data = { nodes: nodes, edges: edges };
+        var options = { width: '100%', height: '100%', nodes: {
+            color: {
+                background: "#23CE6B",
+                border: "#23CEAA"
+            },
+            shape: 'box'
+        }, edges: {
+            color: {
+                color: "#23CE6B"
+            }
+        }};
+        var network = new vis.Network(container, data, options);
+        */
+    </script>

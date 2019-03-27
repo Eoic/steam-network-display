@@ -1,0 +1,25 @@
+{
+  "name": "steam-network-display",
+  "version": "0.0.1",
+  "description": "Steam social connections graph",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eoic/steam-network-display.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eoic/steam-network-display/issues"
+  },
+  "homepage": "https://github.com/Eoic/steam-network-display#readme"
+}
